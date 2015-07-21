@@ -35,10 +35,5 @@ namespace GitWpfApplication
             Regex regex = new Regex("^[1-9][0-9]*");
             e.Handled = !regex.IsMatch(e.Text);
         }
-
-        private void btnCalculer_Click(object sender, RoutedEventArgs e)
-        {
-            calculator.Multiplier();
-        }
     }
 }

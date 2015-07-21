@@ -4,15 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using System.Windows.Input;
 
 namespace GitWpfApplication.Sources
 {
     public class CalculatorVM: INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+        private ICommand calcCommand;
+        private bool canExecute;
         private int nombre1;
         private int nombre2;
         private int result;
+
+        public CalculatorVM()
+        {
+            canExecute = true;
+        }
+
+        public ICommand CalcCommand
+        {
+            get
+            {
+                return calcCommand ?? (calcCommand = new CommandHandler(() => Multiplier(), canExecute));
+            }
+        }
 
         public int Nombre1 
         {

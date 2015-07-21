@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitWpfApplication", "GitWpfApplication\GitWpfApplication.csproj", "{0CCBC0B4-845B-4486-9F4A-306D5A1E7497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitWpfApplicationTest", "GitWpfApplicationTest\GitWpfApplicationTest.csproj", "{4B84A599-34B1-490A-81F2-E254569F8273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCBC0B4-845B-4486-9F4A-306D5A1E7497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCBC0B4-845B-4486-9F4A-306D5A1E7497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCBC0B4-845B-4486-9F4A-306D5A1E7497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCBC0B4-845B-4486-9F4A-306D5A1E7497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B84A599-34B1-490A-81F2-E254569F8273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B84A599-34B1-490A-81F2-E254569F8273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B84A599-34B1-490A-81F2-E254569F8273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B84A599-34B1-490A-81F2-E254569F8273}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

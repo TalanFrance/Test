@@ -14,7 +14,7 @@
                ,119,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtResultat" HorizontalAlignment="Left" Height="23" Margin="203
                  ,119,0,0" TextWrapping="Wrap" Text="{Binding Result, Mode=OneWay}" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="btnCalculer" Content="Calculer" HorizontalAlignment="Left" Margin="46,179,0,0" VerticalAlignment="Top" Width="120" Click="btnCalculer_Click"/>
+        <Button x:Name="btnCalculer" Content="Calculer" HorizontalAlignment="Left" Margin="46,179,0,0" VerticalAlignment="Top" Width="120" Command="{Binding CalcCommand}"/>
 
     </Grid>
 </Window>
